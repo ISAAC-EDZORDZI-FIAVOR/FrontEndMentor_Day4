@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    
+    --primaryBg-color: #141414;
+    --darkgreyBg-color: #1f1f1f;
+    --greyBg-color: #333333;
+    --lightgreyBg-color: #ffffff;
+    --greenBg-color: #c5f82a;
+
+}
+body{
+    background-color: var(--primaryBg-color);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    text-decoration: none;
+    
+}
+
+.container{
+    max-width: 20rem;
+    background-color: var(--darkgreyBg-color);
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+ 
+}
+.profile-details{
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+.user-image img {
+    
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 5rem;
+    margin: 0 100px;
+    
+
+} 
+.user-Name{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.user-Name h1{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--lightgreyBg-color);
+}
+
+.user-Locatin{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--greenBg-color);
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.role{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--lightgreyBg-color);
+    margin-bottom: 20px;
+}
+.btn{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    color: var(--lightgreyBg-color);
+    margin-bottom: 20px;
+    background-color: var(--greyBg-color);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+    
+   
+    color: var(--lightgreyBg-color);
+    font-weight: 700;
+}
+a{
+    text-decoration: none; 
+    
+    color: var(--lightgreyBg-color);
+}
+
+.btn:hover{
+    cursor: pointer; 
+    background-color: var(--greenBg-color);
+    color: var(--darkgreyBg-color);
+    a{
+        color: var(--darkgreyBg-color);
+    }
+}
